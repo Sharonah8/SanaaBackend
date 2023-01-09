@@ -1,0 +1,2 @@
+class Artpiece < ApplicationRecord
+end

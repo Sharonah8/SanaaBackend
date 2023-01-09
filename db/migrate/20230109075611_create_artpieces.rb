@@ -1,6 +1,6 @@
-class CreateArtPieces < ActiveRecord::Migration[7.0]
+class CreateArtpieces < ActiveRecord::Migration[7.0]
   def change
-    create_table :art_pieces do |t|
+    create_table :artpieces do |t|
       t.string :image_url
       t.string :title
       t.string :description
